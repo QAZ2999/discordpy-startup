@@ -27,6 +27,6 @@ async def ？(ctx):
     
 @bot.command()
 async def ?(ctx):
-    await ctx.send('単品「？」は嫌いです。セットでお願いします。')
+    await ctx.send('単品「？」は嫌いです。セットでお願いします。?')
 
 bot.run(token)
