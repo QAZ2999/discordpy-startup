@@ -19,6 +19,6 @@ async def ping(ctx):
     
 @bot.command()
 async def hi(ctx):
-    await ctx.send('Fuck!!')
+    await ctx.send('{player} Fuck!!')
     
 bot.run(token)
