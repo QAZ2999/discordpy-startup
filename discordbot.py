@@ -21,12 +21,4 @@ async def ping(ctx):
 async def hi(ctx):
     await ctx.send('Fuck!!')
     
-@bot.command()
-async def ？(ctx):
-    await ctx.send('単品「？」は嫌いです。セットでお願いします。')
-    
-@bot.command()
-async def ?(ctx):
-    await ctx.send('単品「？」は嫌いです。セットでお願いします。?')
-
 bot.run(token)
