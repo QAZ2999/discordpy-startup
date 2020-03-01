@@ -26,7 +26,7 @@ async def hey(ctx):
     await ctx.send('なんだよheyって。お前えええええええええええええええええええええええええええええええええええスーパーボールをくれ。')
  
 @bot.command()
-async def ha?(ctx):
+async def ha(ctx):
     await ctx.send('ＨＡ？は？ｗｗｗｗ')
 
 bot.run(token)
