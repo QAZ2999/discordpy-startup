@@ -20,5 +20,9 @@ async def ping(ctx):
 @bot.command()
 async def hi(ctx):
     await ctx.send('Fuck!!')
-    
+
+@bot.command()
+async def 33(ctx):
+    await ctx.send('なんだよ３３って。お前えええええええええええええええええええええええええええええええええええスーパーボールをくれ。')
+ 
 bot.run(token)
