@@ -22,7 +22,7 @@ async def hi(ctx):
     await ctx.send('Fuck!!')
 
 @bot.command()
-async def 33(ctx):
-    await ctx.send('なんだよ３３って。お前えええええええええええええええええええええええええええええええええええスーパーボールをくれ。')
+async def hey(ctx):
+    await ctx.send('なんだよheyって。お前えええええええええええええええええええええええええええええええええええスーパーボールをくれ。')
  
 bot.run(token)
