@@ -28,5 +28,9 @@ async def hey(ctx):
 @bot.command()
 async def ha(ctx):
     await ctx.send('ＨＡ？は？ｗｗｗｗ')
+    
+@bot.command()
+async def music(ctx):
+    await ctx.send('!p 迷惑野郎')
 
 bot.run(token)
