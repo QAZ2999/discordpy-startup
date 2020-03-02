@@ -15,22 +15,22 @@ async def on_command_error(ctx, error):
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send('pong')
+    await ctx.send('あなたと私の遅延はレベル×１０秒です。')
     
 @bot.command()
 async def hi(ctx):
-    await ctx.send('Fuck!!')
+    await ctx.send('こんにちは！私は、たなぼっと２４です。よろしくね～(before:Fuck!!)')
 
 @bot.command()
 async def hey(ctx):
-    await ctx.send('なんだよheyって。お前えええええええええええええええええええええええええええええええええええスーパーボールをくれ。')
+    await ctx.send('ねぇねぇ、スーパーボールちょうだい！🐱')
  
 @bot.command()
 async def ha(ctx):
-    await ctx.send('ＨＡ？は？ｗｗｗｗ')
+    await ctx.send('は？hahaha')
     
 @bot.command()
 async def music(ctx):
-    await ctx.send('!p 迷惑野郎')
+    await ctx.send('Lets enter command "!p example"')
 
 bot.run(token)
