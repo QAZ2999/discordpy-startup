@@ -32,6 +32,7 @@ async def ha(ctx):
 @bot.command()
 async def music(ctx):
     await ctx.send('Lets enter command "!p example"')
+
     
 if message.content == "おい！":
 　　　　　
