@@ -32,12 +32,11 @@ async def ha(ctx):
 @bot.command()
 async def music(ctx):
     await ctx.send('Lets enter command "!p example"')
+    
+@bot.command()
+async def Mee6(ctx):
+    await ctx.send('ふはははは。MEE6よ、お前の仕事は私が争奪した（？）"')
+    
 
-@bot.command()    
-if message.content == "おい！":
-　　　　　
-       hennnahuri = ["せんわ", "みんなでハワイ行きたいなぁ", "整地してるから黙って？", "あ", "そのフリはつまらん", "君はもう少し服にお金かけてもいいと思うよ", "無理"]
-       choice = random.choice(hennnahuri)＃←
-       await message.channel.send(choice)
 
 bot.run(token)
