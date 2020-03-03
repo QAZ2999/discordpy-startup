@@ -33,7 +33,7 @@ async def ha(ctx):
 async def music(ctx):
     await ctx.send('Lets enter command "!p example"')
 
-    
+@bot.command()    
 if message.content == "おい！":
 　　　　　
        hennnahuri = ["せんわ", "みんなでハワイ行きたいなぁ", "整地してるから黙って？", "あ", "そのフリはつまらん", "君はもう少し服にお金かけてもいいと思うよ", "無理"]
